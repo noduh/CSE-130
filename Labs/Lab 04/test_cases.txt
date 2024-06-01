@@ -1,0 +1,8 @@
+n                   does not own enough
+y 0 0 0 100         poor
+y 0 0 0 9000 10     no houses
+y 4 5               swap with pacific
+y 4 4 5             swap with north carolina
+y 5                 already built
+y 0 0 0 3000 12 3   all at once
+y 3 3 3 5000 3 1    house and hotel
