@@ -41,17 +41,17 @@ def search(filename, target):
 
 # test cases
 print(
-    search("Lab06.empty.json", "Empty"),
+    search("Lab06.empty.json", "Empty"),                        # not found
     "\n",
-    search("Lab06.trivial.json", "trivial"),
+    search("Lab06.trivial.json", "trivial"),                    # found
     "\n",
-    search("Lab06.trivial.json", "missing"),
+    search("Lab06.trivial.json", "missing"),                    # not found
     "\n",
-    search("Lab06.languages.json", "C++"),
+    search("Lab06.languages.json", "C++"),                      # found
     "\n",
-    search("Lab06.languages.json", "Lisp"),
+    search("Lab06.languages.json", "Lisp"),                     # not found
     "\n",
-    search("Lab06.countries.json", "United States of America"),
+    search("Lab06.countries.json", "United States of America"), # found
     "\n",
-    search("Lab06.countries.json", "United States"),
+    search("Lab06.countries.json", "United States"),            # not found
 )
